@@ -4,15 +4,32 @@ This challenge requires you to create an API that will import data from a third 
 to display it. This challenge should demonstrate how you structure your code and apply any
 appropriate design patterns. Please read through everything before starting.
 
-## Features
+### Features
 - Import customers from a 3rd party data provider and save to database.
 - Display a list of customers from the database.
 - Select and display details of a single customer from the database.
 
+### Requirements
+  - PHP >= 7.2.5
+  - BCMath PHP Extension
+  - Ctype PHP Extension
+  - Fileinfo PHP extension
+  - JSON PHP Extension
+  - Mbstring PHP Extension
+  - OpenSSL PHP Extension
+  - PDO PHP Extension
+  - Tokenizer PHP Extension
+  - XML PHP Extension
+
+### How to Run
+  
+    $ composer install
+    $ php artisan serve
+
 ## Data Importer
 To fetch data from Data Provider: https://randomuser.me. Run this code:
 
-    php artisan import:customer {--count=100}
+    $ php artisan import:customer {--count=100}
 
 > **--count** Total number of data tobe pulled. _Default: 100_.
 
