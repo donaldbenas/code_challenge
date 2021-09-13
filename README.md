@@ -25,6 +25,11 @@ appropriate design patterns. Please read through everything before starting.
   
     $ composer install
     $ php artisan serve
+    
+### Running Test
+
+    $ php artisan test
+
 
 ## Data Importer
 To fetch data from Data Provider: https://randomuser.me. Run this code:
